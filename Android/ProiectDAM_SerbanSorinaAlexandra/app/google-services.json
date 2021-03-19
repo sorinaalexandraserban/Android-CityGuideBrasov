@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "194673353229",
+    "firebase_url": "https://fir-proiect-c517e-default-rtdb.firebaseio.com",
+    "project_id": "fir-proiect-c517e",
+    "storage_bucket": "fir-proiect-c517e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:194673353229:android:8aae58c27c7465ffcbeb44",
+        "android_client_info": {
+          "package_name": "com.example.proiectdam_serbansorinaalexandra"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "194673353229-ghc84l8k8umn29sjnmvmvsp9jl42h6v2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANlgDS5Aj7ufUOy5UcJodAs2KNZHH2YdA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "194673353229-ghc84l8k8umn29sjnmvmvsp9jl42h6v2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

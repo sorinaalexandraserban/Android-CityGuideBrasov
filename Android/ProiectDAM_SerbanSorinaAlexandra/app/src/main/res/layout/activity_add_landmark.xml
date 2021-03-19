@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:fillViewport="false"
+    android:orientation="vertical"
+    android:background="@color/greenish"
+    tools:context=".UI.AddLandmarkActivity">
+
+    <LinearLayout
+        android:id="@+id/layout5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_add_landmark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/add_form"
+            android:textAlignment="center"
+            android:textColor="@color/blackish"
+            android:textStyle="bold"
+            android:textSize="25sp" />
+
+        <ImageView
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/travel" />
+
+        <EditText
+            android:id="@+id/et_name_landmark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:layout_marginTop="10dp"
+            android:hint="@string/hint_name_landmark"
+            android:inputType="text"
+            android:maxLines="1"
+            android:padding="10dp"
+            android:textColor="@color/blackish"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/et_location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:layout_marginTop="10dp"
+            android:hint="@string/hint_location_landmark"
+            android:inputType="text"
+            android:maxLines="1"
+            android:padding="10dp"
+            android:textColor="@color/blackish"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/tv_type_landmark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/type_landmark"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@color/blackish"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/sp_type_landmark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="1dp"
+            android:entries="@array/type_landmark"
+            android:prompt="@array/type_landmark" />
+
+        <TextView
+            android:id="@+id/tv_rating_landmark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/rating_landmark"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@color/blackish"
+            android:textStyle="bold"/>
+
+        <RatingBar
+            android:id="@+id/rb_rating_landmark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:numStars="5"
+            android:layout_marginTop="10dp"
+            android:saveEnabled="true"
+            android:stepSize="1" />
+
+        <Button
+            android:id="@+id/btn_save_landmark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@color/whiteish"
+            android:textColor="@color/blackish"
+            android:text="@string/save_landmark"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:textAlignment="center"
+            android:layout_marginTop="15dp" />
+
+    </LinearLayout>
+
+</ScrollView>
